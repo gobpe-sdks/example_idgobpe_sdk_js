@@ -33,7 +33,8 @@
 <script type="text/javascript" src="https://auth.id.gob.pe/idgobpe.js"></script>
 <script type="text/javascript">
     var BASE_URL = 'http://localhost/example_idgobpe_sdk_js';
-    var userinfo = JSON.parse(localStorage.getItem('authResponse')).userInfo;
+    var jResponse = JSON.parse(localStorage.getItem('authResponse'));
+    var userinfo = jResponse.userInfo ? jResponse.userInfo : jResponse.idTokenParser;
 
     $('#docType').text(userinfo.doc_type);
     $('#doc').text(userinfo.doc);
