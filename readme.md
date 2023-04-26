@@ -1,3 +1,3 @@
-# Demo de integración con IDGOB.PE JS SDK
+# Proyecto deprecado
 
-Documentación del SDK [aquí](https://github.com/gobpe-sdks/idgobpe_sdk_js).
+Versiones actualizadas en: https://github.com/gobpe-sdks
